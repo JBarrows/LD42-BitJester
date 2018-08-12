@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 114850189221567550}
   - component: {fileID: 114243604264393972}
   - component: {fileID: 114237045299844590}
+  - component: {fileID: 114766522557778794}
   m_Layer: 5
   m_Name: ManaOrb
   m_TagString: Untagged
@@ -78,6 +79,21 @@ MonoBehaviour:
   - {r: 0, g: 1, b: 1, a: 1}
   - {r: 0, g: 0, b: 1, a: 1}
   - {r: 1, g: 0, b: 1, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+--- !u!114 &114766522557778794
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1886660152565220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 1, y: 1}
+  m_UseGraphicAlpha: 1
 --- !u!114 &114850189221567550
 MonoBehaviour:
   m_ObjectHideFlags: 1
